@@ -1,6 +1,10 @@
-# Flappy Bird — Kitchen Escape
+# Flappy Bird: Kitchen Escape
 
 A small, slightly chaotic Flappy Bird-inspired game made while learning Flutter at a workshop. Instead of navigating pipes, help a very determined chicken escape a kitchen full of fire.
+
+## Play online
+
+**[Play Flappy Bird: Kitchen Escape](https://swayamdash07.github.io/FlappyBird/)**
 
 ## Play
 
