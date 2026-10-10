@@ -1,17 +1,36 @@
-# flappy_bird
+# Flappy Bird — Kitchen Escape
 
-A new Flutter project.
+A small, slightly chaotic Flappy Bird-inspired game made while learning Flutter at a workshop. Instead of navigating pipes, help a very determined chicken escape a kitchen full of fire.
 
-## Getting Started
+## Play
 
-This project is a starting point for a Flutter application.
+Tap or click the game, or press **Space**, **↑**, or **W** to flap. Dodge the flames and try to beat your high score. If the chicken gets cooked, the end screen has the score, best score, medal, and a **Play Again** button.
 
-A few resources to get you started if this is your first Flutter project:
+Press **M** to toggle sound. Best score is saved in the browser for the web version.
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+## Run locally
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+You’ll need the [Flutter SDK](https://docs.flutter.dev/get-started/install) installed.
+
+```bash
+git clone https://github.com/SwayamDash07/FlappyBird.git
+cd FlappyBird
+flutter pub get
+flutter run -d chrome
+```
+
+To build the web version:
+
+```bash
+flutter build web --release
+```
+
+The deployable files are generated in `build/web/`.
+
+## Built with
+
+- Flutter and Dart
+- Custom-painted game scene and animations
+- A kitchen-inspired setting, fire obstacles, and a dramatic “YOU GOT SERVED” game-over screen
+
+This is a learning project from a Flutter workshop. It was a fun way to explore game loops, input, animation, drawing, and saving a high score.
